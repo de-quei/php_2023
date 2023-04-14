@@ -29,4 +29,13 @@
     echo strtoupper($str)."<br>";   //대문자 변환
     echo strtolower($str);          //소문자 변환
 ?>
+<hr>
+<?php
+   $str = "hellophpwelcome";
+   $result = substr($str, 5, 5);    //(Str, n, m) --> str에 n번째 부터 m까지를 추출한다.
+   echo $result."<br>";
+
+   $result2 = substr($str, 3);      //(str, n) --> n의 위치부터 끝까지 출력.
+   echo $result2;
+?>
 
