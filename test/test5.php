@@ -41,7 +41,7 @@
 <hr>
 <?php
     $arr = array("pizza1", "pizza2", "pizza3", "pizza4", "pizza5");
-    $str = implode(",", $arr);
+    $str = implode(", ", $arr);     //배열의 값을 구분자를 기준으로 한 문자열로 변환
     echo "implode : ".$str;
 ?>
 
