@@ -38,4 +38,10 @@
    $result2 = substr($str, 3);      //(str, n) --> n의 위치부터 끝까지 출력.
    echo $result2;
 ?>
+<hr>
+<?php
+    $arr = array("pizza1", "pizza2", "pizza3", "pizza4", "pizza5");
+    $str = implode(",", $arr);
+    echo "implode : ".$str;
+?>
 
