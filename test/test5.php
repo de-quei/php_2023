@@ -44,4 +44,11 @@
     $str = implode(", ", $arr);     //배열의 값을 구분자를 기준으로 한 문자열로 변환
     echo "implode : ".$str;
 ?>
-
+<hr>
+<?php
+    $str = "apple / mango / strawberry / melon";
+    $ar = explode("/", $str);
+    foreach($ar as $fruit){
+        echo $fruit."<br/>";
+    }
+?>
