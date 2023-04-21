@@ -53,3 +53,10 @@
         echo $fruit."<br/>";    
     }
 ?>
+<hr>
+<?php
+    $txt = "You should eat fruits, should not buy";
+    $result = str_replace("should", "could", $txt);     //문자열 치환
+    echo "변경 전 문자열 : ".$txt."<br>";
+    echo "변경 후 문자열 : ".$result;
+?>
