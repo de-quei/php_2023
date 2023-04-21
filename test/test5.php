@@ -47,8 +47,9 @@
 <hr>
 <?php
     $str = "apple / mango / strawberry / melon";
-    $ar = explode("/", $str);
+    $ar = explode("/", $str);      //문자열을 구분자를 기준으로 잘라서 배열에 저장
+    //배열 값 출력 foreach 사용!
     foreach($ar as $fruit){
-        echo $fruit."<br/>";
+        echo $fruit."<br/>";    
     }
 ?>
